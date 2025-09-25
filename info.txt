@@ -1,0 +1,8 @@
+PACIENTES:
+	nombre, apellido, identificacion, direccion, telefono.
+
+MEDICOS: 
+	nombre, apellido, direccion, especialidad, numero contacto.
+
+CITAS:
+	Fecha y hora cita, paciente (FK), medico (FK), desc.

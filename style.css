@@ -1,0 +1,44 @@
+body{
+    background-color: #8aadf4;
+    color: #24273a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    border-radius: 5px;
+    color: #cad3f5;
+    background-color: #24273a;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+form *{
+    margin: 5px;
+}
+.pacientes{
+    border-radius: 5px;
+    color: #cad3f5;
+    background-color: #24273a;
+    width: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.paciente{
+    background-color: #5b6078;
+    border-radius: 5px;
+    color: #cad3f5;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paciente *{
+    margin: 5px;
+}
